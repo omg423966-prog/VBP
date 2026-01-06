@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.shop {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.shop-title {
+  color: #b56bff;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.packages {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.package {
+  width: 260px;
+  background: #111;
+  border-radius: 16px;
+  padding: 25px;
+}
+
+.package a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #b56bff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
