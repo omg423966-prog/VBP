@@ -133,6 +133,63 @@ opacity:.7;
 }
 >
 </head>
+  <style>
+/* רקע כהה */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* הקופסה */
+.modal {
+  background: #111;
+  border-radius: 20px;
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+}
+
+/* חבילה */
+.package {
+  background: #1a1a1a;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.package h3 {
+  margin: 0;
+  color: white;
+}
+
+.package p {
+  color: #aaa;
+  margin: 5px 0 15px;
+}
+
+.package button {
+  background: #a855f7;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* סגירה */
+.close {
+  color: #aaa;
+  cursor: pointer;
+  margin-bottom: 15px;
+  display: block;
+}
+</style>
+
 <body>
 
 <header>
