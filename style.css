@@ -40,3 +40,41 @@ body {
   border-radius: 8px;
   font-weight: bold;
 }
+.matches {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.match-card {
+  background: linear-gradient(180deg, #0f2538, #0b1c2b);
+  border-radius: 16px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+
+.match-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  opacity: 0.8;
+}
+
+.match-money {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.match-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #1e88ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
