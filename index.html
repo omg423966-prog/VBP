@@ -1,43 +1,88 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>VPB</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      background: radial-gradient(circle at top, #2b0040, #000);
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .box {
-      text-align: center;
-      padding: 40px;
-      border-radius: 16px;
-      background: rgba(40,0,70,0.6);
-      box-shadow: 0 0 40px rgba(180,0,255,0.6);
-    }
-    h1 {
-      font-size: 64px;
-      margin: 0;
-      color: #c77dff;
-    }
-    p {
-      opacity: 0.85;
-      font-size: 18px;
-    }
-  </style>
+<meta charset="UTF-8" />
+<title>VPB</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+margin:0;
+background:#000;
+color:#fff;
+font-family:Arial,Helvetica,sans-serif;
+}
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+border-bottom:1px solid #222;
+}
+.logo{
+font-size:32px;
+font-weight:bold;
+color:#c77dff;
+}
+nav a{
+color:#ccc;
+margin-left:20px;
+text-decoration:none;
+}
+nav a:hover{color:#fff;}
+.hero{
+text-align:center;
+padding:120px 20px;
+background:radial-gradient(circle at top,#2b0040,#000);
+}
+.hero h1{
+font-size:64px;
+margin-bottom:10px;
+color:#c77dff;
+}
+.hero p{
+opacity:.85;
+font-size:18px;
+}
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:14px 28px;
+border-radius:12px;
+background:#8a2be2;
+color:#fff;
+text-decoration:none;
+font-weight:bold;
+}
+footer{
+border-top:1px solid #222;
+padding:20px;
+text-align:center;
+font-size:14px;
+opacity:.7;
+}
+</style>
 </head>
 <body>
-  <div class="box">
-    <h1>VPB</h1>
-    <p>Official Platform</p>
-  </div>
+
+<header>
+<div class="logo">VPB</div>
+<nav>
+<a href="#">Buy Tokens</a>
+<a href="#">Dashboard</a>
+<a href="#">Support</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>VPB</h1>
+<p>Entertainment platform using digital tokens.<br>
+Tokens have no real-world monetary value.</p>
+<a class="btn" href="#">Get Started</a>
+</section>
+
+<footer>
+VPB © 2026 · Entertainment only · 18+ · Tokens have no cash value
+</footer>
+
 </body>
 </html>
-
